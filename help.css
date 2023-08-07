@@ -1,0 +1,63 @@
+/* Body要素*/
+body {
+    padding: 0px;
+    margin: 0px;
+    background-color: #333333;
+}
+/*ヘッダーの親要素*/
+.header {
+    position: sticky;
+    top: 0px;
+    background-image: linear-gradient(91deg, rgba(0, 0, 0, 0.53) 100%, rgba(85, 85, 85, 0.98) 100%, rgba(0, 0, 0, 0.98));
+    height: 60px;
+    padding-left: 50px;
+}
+/*ヘッダーのページ移動メニュー */
+.menu ul {
+    list-style: none;
+    display: flex;
+    margin-top: 0px;
+}
+.menu li{
+    padding-top: 16px;
+}
+
+.home{
+    color: rgb(102, 100, 100);
+    font-family: 'Zen Kaku Gothic New', sans-serif;
+    font-size: 17px;
+    text-decoration: none;
+    padding-left: 25px;
+}
+.staff{
+    color: rgb(102, 100, 100);
+    font-family: 'Zen Kaku Gothic New', sans-serif;
+    font-size: 17px;
+    text-decoration: none;
+    padding-left: 25px;
+}
+.help{
+    color: white;
+    font-family: 'Zen Kaku Gothic New', sans-serif;
+    font-size: 17px;
+    text-decoration: none;
+    padding-left: 25px;
+}
+.rule{
+    color: rgb(102, 100, 100);
+    font-family: 'Zen Kaku Gothic New', sans-serif;
+    font-size: 17px;
+    text-decoration: none;
+    padding-left: 25px;
+}
+.discord{
+    color: rgb(102, 100, 100);
+    font-family: 'Zen Kaku Gothic New', sans-serif;
+    font-size: 17px;
+    text-decoration: none;
+    padding-left: 25px;
+}
+.menu a:hover{
+    text-decoration: underline;
+    text-underline-offset: 6px;
+}

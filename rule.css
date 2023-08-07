@@ -1,0 +1,93 @@
+/* Body要素*/
+body {
+    padding: 0px;
+    margin: 0px;
+    background-color: #333333;
+}
+/*ヘッダーの親要素*/
+.header {
+    position: sticky;
+    top: 0px;
+    background-image: linear-gradient(91deg, rgba(0, 0, 0, 0.53) 100%, rgba(85, 85, 85, 0.98) 100%, rgba(0, 0, 0, 0.98));
+    height: 60px;
+    padding-left: 50px;
+}
+/*ヘッダーのページ移動メニュー */
+.menu ul {
+    list-style: none;
+    display: flex;
+    margin-top: 0px;
+}
+.menu li{
+    padding-top: 16px;
+}
+
+.home{
+    color: rgb(102, 100, 100);
+    font-family: 'Zen Kaku Gothic New', sans-serif;
+    font-size: 17px;
+    text-decoration: none;
+    padding-left: 25px;
+}
+.staff{
+    color: rgb(102, 100, 100);
+    font-family: 'Zen Kaku Gothic New', sans-serif;
+    font-size: 17px;
+    text-decoration: none;
+    padding-left: 25px;
+}
+.help{
+    color: rgb(102, 100, 100);
+    font-family: 'Zen Kaku Gothic New', sans-serif;
+    font-size: 17px;
+    text-decoration: none;
+    padding-left: 25px;
+}
+.rule{
+    color: white;
+    font-family: 'Zen Kaku Gothic New', sans-serif;
+    font-size: 17px;
+    text-decoration: none;
+    padding-left: 25px;
+}
+.discord{
+    color: rgb(102, 100, 100);
+    font-family: 'Zen Kaku Gothic New', sans-serif;
+    font-size: 17px;
+    text-decoration: none;
+    padding-left: 25px;
+}
+.menu a:hover{
+    text-decoration: underline;
+    text-underline-offset: 6px;
+}
+/*Bodyの内容 */
+.body {
+    margin-left: 60px;
+}
+.body h1 {
+    color: white;
+    font-family: 'Zen Antique Soft', serif;
+    font-size: 40px;
+}
+.description li{
+    list-style: none;
+    color: white;
+    font-family: 'Zen Maru Gothic', sans-serif;
+}
+.description ul {
+    margin-top: 5px;
+}
+.description h2 {
+    margin-left: 40px;
+    color: white;
+    font-family: 'Zen Maru Gothic', sans-serif;
+    margin-bottom: 0px;
+    font-size: 33px;
+}
+.description strong {
+    color: red;
+}
+.kuuu {
+    margin-top: 70px;
+}

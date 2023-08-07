@@ -1,0 +1,124 @@
+/* Body要素*/
+body{
+    padding: 0px;
+    margin: 0px;
+    background-color: black;
+    height: 800px;
+}
+.ue {
+    background-image: url(img/1.png) ;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 980px;
+    width: 100%;
+    margin-bottom: 0px;
+}
+.ue h1 {
+    margin: 0px;
+}
+.ue button {
+    border-radius: 10px ;
+    background-color: rgba(247, 247, 247, 0.281);
+    border: solid 1px;
+    margin-left: 50px;
+    margin-top: 20px;
+    height: 55px;
+    width: 160px;
+    font-family: 'BIZ UDPGothic', sans-serif;
+    font-size: 17px;
+    transition: 191ms;
+    color: darkturquoise;
+}
+.ue button:hover {
+    margin-top: 17px;
+    margin-left: 44px;
+    height: 60px;
+    width: 170px;
+}
+/*ヘッダーの親要素*/
+.header {
+    position: fixed;
+    top: 0px;
+    background-image: linear-gradient(91deg, rgba(0, 0, 0, 0.53) 100%, rgba(85, 85, 85, 0.98) 100%, rgba(0, 0, 0, 0.98));
+    height: 60px;
+    padding-left: 50px;
+    width: 100%;
+}
+.mozi p{
+    margin: 0px;
+    padding: 0px;
+    color: rgb(255, 255, 255);
+}
+.mozi {
+    position: relative;
+    top: 310px;
+    padding-left: 220px;
+    size: 100px;
+}
+.mozi h1 {
+    font-family: 'Merriweather', serif;
+    color: rgb(31, 128, 240);
+    font-size: 45px;
+}
+.mcserver {
+    font-family: 'Mochiy Pop P One', sans-serif;
+    font-size: 25px;
+}
+.maimai {
+    font-family: 'Zen Old Mincho', serif;
+    font-size: 23px;
+}
+/*ヘッダーのページ移動メニュー */
+.menu ul {
+    list-style: none;
+    display: flex;
+    margin-top: 0px;
+}
+.menu li{
+    padding-top: 16px;
+}
+
+.home{
+    color: white;
+    font-family: 'Zen Kaku Gothic New', sans-serif;
+    font-size: 17px;
+    text-decoration: none;
+    padding-left: 25px;
+}
+.staff{
+    color: rgb(102, 100, 100);
+    font-family: 'Zen Kaku Gothic New', sans-serif;
+    font-size: 17px;
+    text-decoration: none;
+    padding-left: 25px;
+}
+.help{
+    color: rgb(102, 100, 100);
+    font-family: 'Zen Kaku Gothic New', sans-serif;
+    font-size: 17px;
+    text-decoration: none;
+    padding-left: 25px;
+}
+.rule{
+    color: rgb(102, 100, 100);
+    font-family: 'Zen Kaku Gothic New', sans-serif;
+    font-size: 17px;
+    text-decoration: none;
+    padding-left: 25px;
+}
+.discord{
+    color: rgb(102, 100, 100);
+    font-family: 'Zen Kaku Gothic New', sans-serif;
+    font-size: 17px;
+    text-decoration: none;
+    padding-left: 25px;
+}
+.menu a:hover{
+    text-decoration: underline;
+    text-underline-offset: 6px;
+}
+
+@keyframes fadeInOut {
+    0%, 100% { opacity: 0; }
+    50% { opacity: 1; }
+  }

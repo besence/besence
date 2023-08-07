@@ -1,0 +1,75 @@
+/* Reset some default styles */
+body, h1, h2, h3, p, ol {
+    margin: 0;
+    padding: 0;
+}
+
+  /* Body styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+  /* Header styles */
+header {
+    background-color: #10fa5ecc;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    position: sticky;
+    top: 0px;
+    padding-bottom: 10px;
+}
+.header h1 {
+    font-family: 'Reggae One', cursive;
+}
+.header button {
+    border-radius: 10px ;
+    background-color: rgba(247, 247, 247, 0.281);
+    border: solid 1px;
+    margin-left: 50px;
+    margin-top: 10px;
+    height: 35px;
+    width: 130px;
+    font-family: 'BIZ UDPGothic', sans-serif;
+    font-size: 17px;
+    transition: 191ms;
+    color: rgba(0, 0, 0, 0.863);
+}
+.atama {
+    font-family: 'BIZ UDPGothic', sans-serif;
+    color: black;
+}
+
+  /* Main content styles */
+.main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.section {
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+.section li {
+    margin-top: 20px;
+    font-family: 'Zen Maru Gothic', sans-serif;
+}
+
+.highlight {
+    background-color: #ffe300;
+    padding: 2px 4px;
+    border-radius: 4px;
+}
+
+  /* Footer styles */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #f0f0f0;
+}
