@@ -8,7 +8,8 @@ body{
 .ue {
     background-image: url(img/1.png) ;
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: cover; /* 画像をウィンドウに合わせる */
+    background-position: center; /* 画像を中央に配置 */
     height: 980px;
     width: 100%;
     margin-bottom: 0px;
