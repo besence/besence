@@ -122,4 +122,10 @@ body{
 @keyframes fadeInOut {
     0%, 100% { opacity: 0; }
     50% { opacity: 1; }
-  }
+}
+
+.fade-in-element {
+    opacity: 0;
+    transition: opacity 1.9s ease-in-out; /* フェードインのアニメーションを設定 */
+}
+  
