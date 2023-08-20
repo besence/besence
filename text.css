@@ -1,0 +1,54 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(3, 20, 77);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+h1 {
+    font-family: 'BIZ UDPGothic', sans-serif;
+    text-align: center;
+    color: white;
+    font-size: 50px;
+    transition: 1s;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+
+}
+label{
+    color: white;
+    font-family: 'Zen Kaku Gothic New', sans-serif;
+    margin-bottom: 30px;
+}
+h1:hover {
+    background-color: rgba(150, 232, 114, 0.607);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 40px;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+textarea, button{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+button {
+    border-radius: 30px;
+    margin-left: 27%;
+    padding: 10px;
+    background-color: rgba(139, 213, 124, 0.644);
+    font-family: 'Zen Kaku Gothic New', sans-serif;
+    transition: 0.2s;
+    color: white;
+    border: solid 1px black;
+}
+button:hover {
+    padding: 15px;
+    margin-left: 26%;
+    margin-top: 34px;
+}
